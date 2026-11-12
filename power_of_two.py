@@ -3,7 +3,7 @@
 # Date : 11th NOV 2026
 # This programs asks the user to enter a positive integer
 # it then uses a for loop to calculate and display the
-# “square” (power of 2) starting from 0 until this number then it
+# “square” (power of 2) starting from 0 until this number
 
 
 def main():
