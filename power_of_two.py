@@ -21,6 +21,8 @@ def main():
             print(f"{user_number_int} is not a positive number")
     except:
         print(f"{user_number_str} is not an integer")
+    finally :
+        print("Thanks for playing")
 
 
 if __name__ == "__main__":
