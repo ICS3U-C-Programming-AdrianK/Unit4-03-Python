@@ -15,13 +15,13 @@ def main():
         user_number_int = int(user_number_str)
         if user_number_int >= 0:
             for counter in range(user_number_int + 1):
-                power_of_two = counter ** 2
+                power_of_two = counter**2
                 print(f"{counter}² = {power_of_two}")
         else:
             print(f"{user_number_int} is not a positive number")
     except:
         print(f"{user_number_str} is not an integer")
-    finally :
+    finally:
         print("Thanks for playing")
 
 
