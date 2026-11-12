@@ -11,7 +11,7 @@ def main():
     user_number_str = input("Enter a positive integer : ")
 
     try:
-        # cast the user number fom string to integer
+        # cast the user number from string to integer
         user_number_int = int(user_number_str)
         if user_number_int >= 0:
             for counter in range(user_number_int + 1):
